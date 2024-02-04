@@ -1,0 +1,84 @@
+// Login page
+.page1 {
+  background-image: url(/assets/images/background-image.book.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+//   Bookshelter page
+body {
+  background-color: #fff;
+  color: black;
+}
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+// dark or light mode
+.dark {
+  color: white !important;
+  background-color: rgb(121, 116, 116) !important;
+  .header {
+    background-color: rgb(121, 116, 116);
+  }
+  .hero {
+    background-color: rgb(166, 163, 163);
+    box-shadow: 0px 0px 6px rgb(41, 38, 38);
+  }
+  .hero__left {
+    background-color: rgb(121, 116, 116);
+    box-shadow: 0px 0px 6px rgb(39, 36, 36);
+  }
+  .hero__right {
+    background-color: rgb(166, 163, 163);
+    box-shadow: 0px 0px 6px rgb(39, 36, 36);
+  }
+  .card {
+    background-color: rgb(121, 116, 116);
+    color: white;
+    border: solid 1px rgb(68, 66, 66);
+    box-shadow: 0px 0px 6px rgb(42, 40, 40);
+  }
+  .info__btn {
+    border: 1px solid rgb(38, 31, 31);
+  }
+}
+// page 3
+.single__page{
+  background-image: url(/assets/images/bookback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container1 {
+  margin: auto;
+  padding: 15px;
+  width: 300px;
+  border-radius: 6px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px #000;
+  background-color: rgb(121, 147, 147);
+}
+h1 {
+  background: none;
+  color: #000;
+  font-family: Rubik;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+p {
+  background: none;
+  color: #323335;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 10px;
+}

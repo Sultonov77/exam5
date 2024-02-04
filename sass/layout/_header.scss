@@ -1,0 +1,97 @@
+// Bookshelter header
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px;
+}
+.search {
+  width: 670px;
+  height: 43px;
+  top: 33px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1);
+  background: rgb(238, 239, 242);
+}
+#search {
+  outline: none;
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  font-family: Rubik;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 15px;
+  border: none;
+  background: none;
+}
+.search-logo {
+  margin: 10px 70px;
+}
+#search::placeholder {
+  color: rgb(15, 15, 15);
+}
+.header__right {
+  display: flex;
+  column-gap: 50px;
+}
+.light__mode {
+  outline: none;
+  border: none;
+  background: none;
+}
+.logout__btn {
+  width: 105px;
+  height: 40px;
+  border-radius: 4px;
+  background: rgb(13, 117, 255);
+  outline: none;
+  border: none;
+}
+.logout__btn:hover {
+  color: rgb(27, 26, 26);
+  border: 1.5px solid rgb(50, 45, 45);
+  transition: all ease 1s;
+}
+.logout__text {
+  color: rgb(255, 255, 255);
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  padding: 20px;
+}
+.header__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 220px;
+}
+.result {
+  color: rgb(34, 37, 49);
+  font-family: Rubik;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 17px;
+}
+#order__btn {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  background: rgb(166, 176, 195);
+  width: 195px;
+  height: 34px;
+  top: 116px;
+  bottom: -81px;
+  border: none;
+}
+.order__btntext {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  top: -21px;
+  width: 140px;
+}

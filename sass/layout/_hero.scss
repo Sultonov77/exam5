@@ -1,0 +1,127 @@
+// Hero section bookshelter
+// left side
+.hero {
+  display: flex;
+  margin: 20px -10px;
+  background: rgb(229, 229, 229);
+  border-radius: 2px;
+}
+.hero__left {
+  background-color: #fff;
+  width: 280px;
+}
+.bookmark__title {
+  color: rgb(0, 0, 0);
+  font-family: Rubik;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  margin-left: 26px;
+}
+.bookmark__text {
+  margin: 10px 26px;
+  color: rgb(0, 0, 0);
+  font-family: Rubik;
+  font-size: 17px;
+  font-weight: 400;
+}
+// right side
+.hero__right {
+  display: flex;
+  margin: 14px auto;
+  column-gap: 10px;
+}
+.card {
+  padding: 15px 17px;
+  width: 240px;
+  height: 420px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 0px solid #e3e6eb;
+  background: #fff;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  h1 {
+    background: none;
+    color: #000;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  p {
+    background: none;
+    color: #757881;
+    font-family: "Noto Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+  img {
+    margin: auto;
+    padding: 14px;
+    background-color: rgb(181, 178, 178);
+  }
+  .book__buttons {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 6px;
+    #bookmark {
+      width: 120px;
+      height: 37px;
+      flex-shrink: 0;
+      border-radius: 4px;
+      background: #ffd80d;
+      color: #000;
+      font-family: Rubik;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      border: none;
+    }
+    .info__btn {
+      width: 120px;
+      height: 37px;
+      flex-shrink: 0;
+      border-radius: 4px;
+      background: rgba(13, 117, 255, 0.05);
+      color: #0d75ff;
+      font-family: Rubik;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+  .read__btn {
+    width: 246px;
+    height: 37px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #75828a;
+    color: #fff;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+  }
+  .read__btn:hover {
+    color: rgb(27, 26, 26);
+    border: 1.5px solid rgb(50, 45, 45);
+    transition: all ease 1s;
+  }
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.skip__img {
+  margin-left: 570px;
+}

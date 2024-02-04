@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./sass/main.css" />
+    <title>Imtihon5-2</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- header section -->
+      <div class="header">
+        <div>
+          <img
+            src="./assets/icons/main-logo.png"
+            alt="main-logo"
+            width="185"
+            height="40"
+          />
+        </div>
+        <label for="search" class="search">
+          <img
+            class="search-logo"
+            src="./assets/icons/search-icon.png"
+            alt="search"
+            width="25"
+            height="25" />
+          <input type="search" id="search" placeholder="Search books"
+        /></label>
+        <div class="header__right">
+          <button class="light__mode">
+            <img
+              src="./assets/icons/sun-icon.svg"
+              alt="light-mode"
+              width="30"
+              height="30"
+            />
+          </button>
+          <button class="logout__btn">
+            <a href="./index.html" class="logout__text">Logout</a>
+          </button>
+        </div>
+      </div>
+      <hr />
+      <div class="header__bottom">
+        <h4 class="result">Showing 18 Result(s)</h4>
+        <button type="menu" id="order__btn">
+          <img src="./assets/icons/calendar-icon.png" alt="calendar" />
+          <h5 class="order__btntext">Order by newest</h5>
+        </button>
+      </div>
+      <hr />
+      <!-- hero section -->
+      <div class="hero">
+        <div class="hero__left">
+          <h2 class="bookmark__title">Bookmarks</h2>
+          <p class="bookmark__text">
+            If you don’t like to read, you haven’t found the right book
+          </p>
+        </div>
+        <div class="hero__right">
+          <div class="cards">
+            <div class="card">
+              <img src="./assets/images/book1.png" alt="book" />
+              <h1>Python3</h1>
+              <p>David M. Beazley</p>
+              <p>2009</p>
+              <div class="book__buttons">
+                <button id="bookmark" class="bookmark__btn" type="click">
+                  Bookmark
+                </button>
+                <button class="info__btn">More Info</button>
+              </div>
+              <button class="read__btn">
+                <a href="./single.html">Read</a>
+              </button>
+            </div>
+            <div class="card">
+              <img src="./assets/images/book4.png" alt="book" />
+              <h1>Python Data</h1>
+              <p>David M. Beazley</p>
+              <p>2009</p>
+              <div class="book__buttons">
+                <button id="bookmark" class="bookmark__btn">Bookmark</button>
+                <button class="info__btn">More Info</button>
+              </div>
+              <button class="read__btn">
+                <a href="./single.html">Read</a>
+              </button>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card">
+              <img src="./assets/images/book2.png" alt="book" />
+              <h1>Learning Python</h1>
+              <p>David M. Beazley</p>
+              <p>2009</p>
+              <div class="book__buttons">
+                <button id="bookmark" class="bookmark__btn">Bookmark</button>
+                <button class="info__btn">More Info</button>
+              </div>
+              <button class="read__btn">
+                <a href="./single.html">Read</a>
+              </button>
+            </div>
+            <div class="card">
+              <img src="./assets/images/book5.png" alt="book" />
+              <h1>Python for Dummiest</h1>
+              <p>David M. Beazley</p>
+              <p>2009</p>
+              <div class="book__buttons">
+                <button id="bookmark" class="bookmark__btn">Bookmark</button>
+                <button class="info__btn">More Info</button>
+              </div>
+              <button class="read__btn">
+                <a href="./single.html">Read</a>
+              </button>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card">
+              <img src="./assets/images/book3.png" alt="book" />
+              <h1>The boring Staff</h1>
+              <p>David M. Beazley</p>
+              <p>2009</p>
+              <div class="book__buttons">
+                <button id="bookmark" class="bookmark__btn">Bookmark</button>
+                <button class="info__btn">More Info</button>
+              </div>
+              <button class="read__btn">
+                <a href="./single.html">Read</a>
+              </button>
+            </div>
+            <div class="card">
+              <img src="./assets/images/book6.png" alt="book" />
+              <h1>Violent Python</h1>
+              <p>David M. Beazley</p>
+              <p>2009</p>
+              <div class="book__buttons">
+                <button id="bookmark" class="bookmark__btn">Bookmark</button>
+                <button class="info__btn">More Info</button>
+              </div>
+              <button class="read__btn">
+                <a href="./single.html">Read</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="./single.html">
+        <img src="./assets/icons/skip-button.png" alt="skip" class="skip__img"
+      /></a>
+    </div>
+    <script src="./script/main.js"></script>
+  </body>
+</html>

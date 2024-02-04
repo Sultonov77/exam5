@@ -1,0 +1,71 @@
+// Login page
+.login__page {
+  text-align: center;
+  margin: 150px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.username {
+  margin: auto;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  width: 300px;
+  height: 45px;
+  top: 250px;
+}
+#username {
+  width: 250px;
+  height: 40px;
+  background: none;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+.password {
+  margin: auto;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  width: 300px;
+  height: 45px;
+}
+#password {
+  width: 250px;
+  height: 40px;
+  background: none;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+input::placeholder {
+  color: rgb(234, 234, 245);
+}
+.button {
+  margin: auto;
+  width: 300px;
+  height: 47px;
+  color: rgb(79, 142, 223);
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: red;
+  border: 1px solid red;
+  transition: all ease 2s;
+}

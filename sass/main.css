@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,800;1,100;1,200;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,700;1,500;1,600&display=swap");
+.login__page {
+  text-align: center;
+  margin: 150px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.username {
+  margin: auto;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  width: 300px;
+  height: 45px;
+  top: 250px;
+}
+
+#username {
+  width: 250px;
+  height: 40px;
+  background: none;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+
+.password {
+  margin: auto;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  width: 300px;
+  height: 45px;
+}
+
+#password {
+  width: 250px;
+  height: 40px;
+  background: none;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+
+input::-moz-placeholder {
+  color: rgb(234, 234, 245);
+}
+
+input::placeholder {
+  color: rgb(234, 234, 245);
+}
+
+.button {
+  margin: auto;
+  width: 300px;
+  height: 47px;
+  color: rgb(79, 142, 223);
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: red;
+  border: 1px solid red;
+  transition: all ease 2s;
+}
+
+.page1 {
+  background-image: url(/assets/images/background-image.book.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  background-color: #fff;
+  color: black;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.dark {
+  color: white !important;
+  background-color: rgb(121, 116, 116) !important;
+}
+.dark .header {
+  background-color: rgb(121, 116, 116);
+}
+.dark .hero {
+  background-color: rgb(166, 163, 163);
+  box-shadow: 0px 0px 6px rgb(41, 38, 38);
+}
+.dark .hero__left {
+  background-color: rgb(121, 116, 116);
+  box-shadow: 0px 0px 6px rgb(39, 36, 36);
+}
+.dark .hero__right {
+  background-color: rgb(166, 163, 163);
+  box-shadow: 0px 0px 6px rgb(39, 36, 36);
+}
+.dark .card {
+  background-color: rgb(121, 116, 116);
+  color: white;
+  border: solid 1px rgb(68, 66, 66);
+  box-shadow: 0px 0px 6px rgb(42, 40, 40);
+}
+.dark .info__btn {
+  border: 1px solid rgb(38, 31, 31);
+}
+
+.single__page {
+  background-image: url(/assets/images/bookback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container1 {
+  margin: auto;
+  padding: 15px;
+  width: 300px;
+  border-radius: 6px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px #000;
+  background-color: rgb(121, 147, 147);
+}
+
+h1 {
+  background: none;
+  color: #000;
+  font-family: Rubik;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+p {
+  background: none;
+  color: #323335;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px;
+}
+
+.search {
+  width: 670px;
+  height: 43px;
+  top: 33px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1);
+  background: rgb(238, 239, 242);
+}
+
+#search {
+  outline: none;
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  font-family: Rubik;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 15px;
+  border: none;
+  background: none;
+}
+
+.search-logo {
+  margin: 10px 70px;
+}
+
+#search::-moz-placeholder {
+  color: rgb(15, 15, 15);
+}
+
+#search::placeholder {
+  color: rgb(15, 15, 15);
+}
+
+.header__right {
+  display: flex;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+
+.light__mode {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.logout__btn {
+  width: 105px;
+  height: 40px;
+  border-radius: 4px;
+  background: rgb(13, 117, 255);
+  outline: none;
+  border: none;
+}
+
+.logout__btn:hover {
+  color: rgb(27, 26, 26);
+  border: 1.5px solid rgb(50, 45, 45);
+  transition: all ease 1s;
+}
+
+.logout__text {
+  color: rgb(255, 255, 255);
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.header__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 220px;
+}
+
+.result {
+  color: rgb(34, 37, 49);
+  font-family: Rubik;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 17px;
+}
+
+#order__btn {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  background: rgb(166, 176, 195);
+  width: 195px;
+  height: 34px;
+  top: 116px;
+  bottom: -81px;
+  border: none;
+}
+
+.order__btntext {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  top: -21px;
+  width: 140px;
+}
+
+.hero {
+  display: flex;
+  margin: 20px -10px;
+  background: rgb(229, 229, 229);
+  border-radius: 2px;
+}
+
+.hero__left {
+  background-color: #fff;
+  width: 280px;
+}
+
+.bookmark__title {
+  color: rgb(0, 0, 0);
+  font-family: Rubik;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  margin-left: 26px;
+}
+
+.bookmark__text {
+  margin: 10px 26px;
+  color: rgb(0, 0, 0);
+  font-family: Rubik;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.hero__right {
+  display: flex;
+  margin: 14px auto;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+
+.card {
+  padding: 15px 17px;
+  width: 240px;
+  height: 420px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 0px solid #e3e6eb;
+  background: #fff;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+}
+.card h1 {
+  background: none;
+  color: #000;
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.card p {
+  background: none;
+  color: #757881;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.card img {
+  margin: auto;
+  padding: 14px;
+  background-color: rgb(181, 178, 178);
+}
+.card .book__buttons {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+.card .book__buttons #bookmark {
+  width: 120px;
+  height: 37px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #ffd80d;
+  color: #000;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+}
+.card .book__buttons .info__btn {
+  width: 120px;
+  height: 37px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: rgba(13, 117, 255, 0.05);
+  color: #0d75ff;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.card .read__btn {
+  width: 246px;
+  height: 37px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #75828a;
+  color: #fff;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+}
+.card .read__btn:hover {
+  color: rgb(27, 26, 26);
+  border: 1.5px solid rgb(50, 45, 45);
+  transition: all ease 1s;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skip__img {
+  margin-left: 570px;
+}/*# sourceMappingURL=main.css.map */

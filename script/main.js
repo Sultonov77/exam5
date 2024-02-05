@@ -26,6 +26,7 @@ butttonDark.addEventListener("click", function () {
 // api information
 const row = document.querySelector(".cards");
 const BASE_URL = "https://openlibrary.org/people/mekBot/books";
+const IMG = "https://covers.openlibrary.org/b/olid"
 
 const fetchData = async () => {
   try {
@@ -45,9 +46,10 @@ const appendCard = () => {
     const card = document.createElement("div");
     bookList.forEach((books) => {
       const data = books.work;
+      console.log(data);
       row.innerHTML += `
       <div class="card">
-                  <img src="./assets/images/book1.png" alt="book" />
+                  <img id="imgcard" src="${IMG}/${data.cover_edition_key}.jpg" alt="book" />
                   <h1>${data.title}</h1>
                   <p>${data.author_names}</p>
                   <p>${data.first_publish_year}</p>

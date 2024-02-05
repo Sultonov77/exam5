@@ -263,6 +263,11 @@ a {
   width: 140px;
 }
 
+#imgcard {
+  width: 90%;
+  height: 50%;
+}
+
 .hero {
   display: flex;
   margin: 20px -10px;

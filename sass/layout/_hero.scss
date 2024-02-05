@@ -37,7 +37,7 @@
 .card {
   padding: 15px 17px;
   width: 240px;
-  height: 445px;
+  height: 480px;
   flex-shrink: 0;
   border-radius: 5px;
   border: 0px solid #e3e6eb;
@@ -47,7 +47,7 @@
     background: none;
     color: #000;
     font-family: Rubik;
-    font-size: 20px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -55,7 +55,7 @@
   p {
     color: #1f1f22;
     font-family: "Noto Sans";
-    font-size: 17px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -68,7 +68,7 @@
   }
   .book__buttons {
     display: flex;
-    gap: 6px;
+    gap: 5px;
     margin-bottom: 6px;
     #bookmark {
       width: 120px;
@@ -130,4 +130,8 @@
 }
 .skip__img {
   margin-left: 570px;
+}
+#imgcard  {
+  width: 90%;
+  height: 50%;
 }
